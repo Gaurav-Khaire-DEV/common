@@ -1,0 +1,9 @@
+BasedOnStyle: LLVM
+---
+Language: Cpp
+IndentWidth: 4
+PointerAlignment: Left
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveDeclarations: Consecutive
+AlignConsecutiveMacros: Consecutive
+...
