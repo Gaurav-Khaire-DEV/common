@@ -1,0 +1,88 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.mouseWheelZoom": true,
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "Jetbrains Mono",
+    "terminal.integrated.fontWeight": "10",
+    "editor.tokenColorCustomizations": {},
+    "workbench.colorCustomizations": {
+        "[Sapphire (Dim)]": {
+            "editorWarning.foreground": "#03010f"
+        }
+    },
+    "terminal.integrated.fontFamily": "JetBrainsMonoNerdFont, JetBrainsMono NFM Medium",
+    "editor.codeLensFontFamily": "Jetbrains Mono",
+    "editor.codeLensFontSize": 12,
+    "editor.fontSize": 12,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.fontFamily": "JetBrainsMonoNerdFont, JetBrainsMono NFM Medium",
+        "editor.fontLigatures": true,
+        "editor.fontWeight": "normal",
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "cmake.configureOnOpen": true,
+    "editor.snippetSuggestions": "top",
+    "glassit.alpha": 255,
+    "editor.fontVariations": false,
+    "workbench.editorAssociations": {
+        "*.mkv": "default"
+    },
+    "settingsSync.ignoredExtensions": [
+        "ms-python.vscode-pylance"
+    ],
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "on",
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_path": "C:\\Users\\gayat\\Desktop\\Codes\\C\\astyle-3.4.13-x64\\astyle.exe",
+    "zenMode.centerLayout": false,
+    "editor.cursorStyle": "block-outline",
+    "zenMode.hideStatusBar": false,
+    "editor.cursorBlinking": "solid",
+    "editor.formatOnPaste": true,
+    "[cpp]": {
+        "editor.defaultFormatter": null
+    },
+    "C_Cpp.clang_format_style": "C:\\Users\\gayat\\Desktop\\Codes\\C\\astyle-3.4.13-x64\\astyle.exe",
+    "C_Cpp.clang_format_fallbackStyle": "C:\\Users\\gayat\\Desktop\\Codes\\C\\astyle-3.4.13-x64\\astyle.exe",
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "xaver.clang-format",
+    "telemetry.telemetryLevel": "off",
+    "workbench.colorTheme": "monotone",
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[go]": {
+        // "editor.defaultFormatter": "golang.gofmt"
+    },
+    "accessibility.signals.terminalBell": {
+        "sound": "on"
+    },
+
+    "editor.rulers": [
+        80,
+        120,
+    ],
+    "workbench.editor.labelFormat": "short",
+    "workbench.sideBar.location": "right",
+    "editor.renderWhitespace": "none",
+    "clangd.arguments": [
+        "--include-insertion=never"
+    ],
+    "chat.commandCenter.enabled": false,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [ {
+            // "before": ["g", "H"],
+            "before": ["K"],
+            "commands": [{ "command": "editor.action.showDefinitionPreviewHover" }]
+        }
+    ]
+}
